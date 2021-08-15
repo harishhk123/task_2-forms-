@@ -1,0 +1,106 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<title>INTERNSHIP FORM</title>
+<style>  
+body{  
+  background-color: skyblue;  
+}  
+
+.forms {  
+    padding: 50px;  
+    background-color: white;
+    background: lightblue url("bgimage.jpg") no-repeat fixed center; 
+    width: 100%;
+    display: block;
+    position: relative;
+    z-index: 1; 
+}
+}  
+  
+input[type=text], input[type=password], textarea {  
+  width: 50%;  
+  padding: 10px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border: none;  
+  background: #f1f1f1;  
+}  
+input[type=text]:focus, input[type=password]:focus {  
+  background-color: blue;  
+}  
+ div {  
+            padding: 10px 0;  
+         }  
+
+.register {  
+  background-color: BLUE;  
+  color: white;  
+  padding: 15px ;  
+  cursor: pointer;  
+  width: 30%;  
+  margin-left:450px;
+}  
+.registerbtn:hover {  
+  opacity: 1;  
+}  
+</style>  
+</head>  
+<body>  
+<form>  
+    <center>  <h1>  INTERNSHIP FORM </h1> </center>  
+  <div class="forms">  
+  
+  <hr>  
+  <label><b>  Firstname :</b> </label><br>   
+<input type="text" name="firstname" placeholder= "Firstname"  required />    <br><br>
+<label> <b> Lastname : </b> </label> <br>   
+<input type="text" name="lastname" placeholder="Lastname" required /><br><br>
+<label for="email"><b>Email</b></label>  <br>
+ <input type="text" placeholder="Enter Email" name="email" required>  
+<br>
+<label><b>College name:  </b></label><br><br>
+</label>   
+<input type="text" name="college" placeholder="college" size="10"/ required> <b> <br><br>
+<label><b>  DOB: </b> </label>    <br>
+<input type="date" name="dateofbirth" placeholder="dateofbirth" required /><br>
+<br>
+
+<div> 
+<label> <b>   
+DOMAIN:  
+</label> </b>   <br>
+
+<select>  
+<option value="PYTHON">Python</option>  
+<option value="WEB DEVELOPMENT">Web development</option>  
+
+</select>  
+</div>  
+<div>  
+<label> <br> <b>
+Gender :  </b> 
+</label><br>  
+<input type="radio" value="Male" name="gender" checked > Male   
+<input type="radio" value="Female" name="gender"> Female   
+<input type="radio" value="Other" name="gender"> Other  
+  
+</div>  
+<label> <b>   <br>
+Phone no :  </b>
+</label>   <br>
+<input type="text" name="phone" placeholder="phone no." size="10"/ required> <b>  <br> <br>
+Place :  </b>
+</label>   <br>
+<input type="text" name="place" placeholder="place." size="10"/ required> <b> <br><br>
+
+<label for="Linkedin"><b>Linkedin(optional)</b></label>  
+ <input type="text" placeholder="Enter Linkedin id" name="Linkedin" option>  
+<br>
+  <br>
+   <br>
+   <br>
+    <button type="submit" class="register">Register</button>    
+</form>  
+</body>  
+</html>  
